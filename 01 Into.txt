@@ -1,5 +1,5 @@
 Hello everyone,Lets get started with The java collections library
-
+Found in java.util
 the diversification according to AnujBhaiya Channel
 Collection
   List

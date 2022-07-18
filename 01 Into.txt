@@ -1,0 +1,25 @@
+Hello everyone,Lets get started with The java collections library
+
+the diversification according to AnujBhaiya Channel
+Collection
+  List
+      ArrayList
+      LinkedList
+      Stack
+      Vector
+  Set
+      EnumSet
+      HashSet
+      LinkedHashSet
+      TreeSet
+  Queue
+      ArrayDeque
+      LinkedList
+      PriorityQueue
+ Map
+    HashMap
+    TreeMap
+    EnumMap
+    LinkedHashMap
+    WeakHashMap
+    

@@ -1,1 +1,21 @@
 Just like vectors of c++. Basically dynamic array ie arrays that can expand dynamically
+
+*)Elements in an ArrayList are actually objects.
+  Remember that a String in Java is an object (not a primitive type). To use other types, such as int, you must specify an equivalent wrapper class: Integer.
+  For  other primitive types, use: Boolean for boolean, Character for char, Double for double
+
+Basic working
+1)When we declare and intilize the arraylist eg ArrayList <String>=new ArrayList<>();
+Then an empty array is declared.
+2)When we add the first element an array of size 10 is made
+3)when 10 elemnts havebeen added in the array,now the size will be expanded.
+4)The expansion is given by new_size=n+n/2+1 where n=current size
+
+Difference between array size and array capacity
+  We can declare the array with a predefined size instead of 0 eg ArrayList<int>v=new ArrayList(10);
+  here the capacity is 10,which means the max elements that the array can store without expanding is 10.
+  whereas the size is 0,which you guessed perfectly,is the number of elements currently present in the array.
+
+*)We can print the array just we can print the list and other data structures in python System.out.print(array_name)
+
+*)The time complexity of add at index/delete at index is O(n)
